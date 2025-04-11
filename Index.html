@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>jetflix | Die besten Filme auf Netflix</title>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/icon" href="images/Logo-favi.ico"/>
+  <!-- STYLESHEETS -->
+  <link type="text/css" rel="stylesheet" href="css/reset.css" />
+  <link type="text/css" rel="stylesheet" href="css/navigation.css" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link type="text/css" rel="stylesheet" href="css/subfooter.css" />
+  <link type="text/css" rel="stylesheet" href="css/footer.css" />
+  <link type="text/css" rel="stylesheet" href="css/loadingscreen.css" />
+  <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- JavaScript -->
+  <script src="javascript/figcaption.js"></script>
+  <script src="javascript/hideLoadingscreen.js"></script>
+  <script src="javascript/hideNavbar.js"></script>
+</head>
+<body>
+  <!-- ZWECKELEMENT -->
+  <button><i class="fas fa-bars"></i></button>
+  <a href="Index.html"><img src="images/Logo.png" id="query-logo" alt="jetflix Logo"/></a>
+  <div id="fader"></div>
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen"><div></div></div>
+  <!-- NAVIGATION -->
+  <nav>
+    <ul>
+      <li><a href="Index.html"><img src="images/Logo.png" draggable="false" alt="jetflix Logo"/></a></li>
+      <li><a href="#">Neu</a></li>
+      <li><a href="#">Filme</a>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">Rating</a></li>
+            <li><a href="#">Netflix Originals</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="#">Serien</a>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">Rating</a></li>
+            <li><a href="#">Netflix Originals</a></li>
+            <li><a href="#">Regisseur</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+      <form>
+        <fieldset>
+          <input type="search" placeholder="Title, Director etc." />
+          <input type="submit" value="search">
+        </fieldset>
+      </form>
+    <ul>
+      <li><a href="Kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+  <!-- MAIN CONTENT -->
+  <main>
+    <section id="inputs">
+      <!-- BEST MOVIES -->
+      <section>
+        <h1>TOP FILME<a href="#">Alle anzeigen <i class="fas fa-arrow-right"></i></a></h1>
+        <article>
+          <figure><img src="images/movie/artemis.jpg" alt="Artemis Film" />
+            <figcaption id="cap">Artemis Fowl, Film 2018</figcaption>
+          </figure>
+          <figure><img src="images/movie/arctic.jpg" alt="Arctic" />
+            <figcaption>Arctic, Film 2018</figcaption>
+          </figure>
+          <figure><img src="images/movie/birdbox.jpg" alt="Birdbox" />
+            <figcaption>Bird Box, Film 2018</figcaption>
+          </figure>
+          <figure><img src="images/movie/godzilla.jpg" alt="Godzilla" />
+            <figcaption>Godzilla, Film 2019</figcaption>
+          </figure>
+          <figure><img src="images/movie/io.jpg" alt="IO" />
+            <figcaption>IO, Film 2019</figcaption>
+          </figure>
+          <figure><img src="images/movie/mibi.jpg" alt="Man in Black International" />
+            <figcaption>Man in Black Interntional, Film 2019</figcaption>
+          </figure>
+          <figure><img src="images/movie/piercing.jpg" alt="Piercing" />
+            <figcaption>Piercing, Film 2018</figcaption>
+          </figure>
+          <figure><img src="images/movie/polar.jpg" alt="Polar" />
+            <figcaption>Polar, Film 2018</figcaption>
+          </figure>
+          <figure><img src="images/movie/prodigy.jpg" alt="Prodigy" />
+            <figcaption>Prodigy, Film 2019</figcaption>
+          </figure>
+          <figure><img src="images/movie/stagatha.jpg" alt="St. Agatha" />
+            <figcaption>St. Agatha, Film 2019</figcaption>
+          </figure>
+        </article>
+      </section>
+      <!-- BEST SERIES -->
+      <section>
+        <h1>TOP SERIEN<a href="#">Alle anzeigen <i class="fas fa-arrow-right"></i></a></h1>
+        <article>
+          <figure><img src="images/series/blackmirror.jpg" alt="Black Mirror" />
+            <figcaption>Black Mirror, Serie 2011</figcaption>
+          </figure>
+          <figure><img src="images/series/breakingbad.jpg" alt="Breaking Bad" />
+            <figcaption>Breaking Bad, Serie 2008</figcaption>
+          </figure>
+          <figure><img src="images/series/criminalminds.jpg" alt="Criminal Minds" />
+            <figcaption>Criminal Minds, Serie 2005</figcaption>
+          </figure>
+          <figure><img src="images/series/gilmoregirls.jpg" alt="Gilmore Girls" />
+            <figcaption>Gilmore Girls, Serie 2000</figcaption>
+          </figure>
+          <figure><img src="images/series/greysanatomy.jpg" alt="Greys Anatomy" />
+            <figcaption>Greys Anatomy, Serie 2005</figcaption>
+          </figure>
+          <figure><img src="images/series/himym.jpg" alt="How I Met Your Mother" />
+            <figcaption>How I Met Your Mother, Serie 2005</figcaption>
+          </figure>
+          <figure><img src="images/series/houseofcards.jpg" alt="House of Cards" />
+            <figcaption>House of Cards, Serie 2013</figcaption>
+          </figure>
+          <figure><img src="images/series/strangerthings.jpg" alt="Stranger Things" />
+            <figcaption>Stranger Things, Serie 2016</figcaption>
+          </figure>
+          <figure><img src="images/series/suits.jpg" alt="Suits" />
+            <figcaption>Suits, Serie 2011</figcaption>
+          </figure>
+          <figure><img src="images/series/tbbt.jpg" alt="The Big Bang Theory" />
+            <figcaption>The Big Bang Theory, Serie 2007</figcaption>
+          </figure>
+        </article>
+      </section>
+    </section>
+    <section id="subfooter">
+        <h1>Alle Anbieter</h1>
+        <article>
+          <img src="images/streams/amazon.png" alt="amazon prime" />
+          <img src="images/streams/hulu.png" alt="hulu" />
+          <img src="images/streams/maxdome.png" alt="maxdome" />
+          <img src="images/streams/netflix.png" alt="netflix" />
+          <img src="images/streams/sky.png" alt="sky" />
+          <img src="images/streams/watchever.png" alt="watchever" />
+        </article>
+    </section>
+    <section id="footer">
+      <article>
+        <h2>Was ist jetflix?</h2>
+        <p>Jetflix ist ein von Samir Wadi aus didaktischen Gründen gestartetes Web Projekt zum erlenen diverser Webtechniken. Gestartet wurde es am 20. Januar 2019.<a href="#">Update Log</a></p>
+      </article>
+      <article>
+        <h2>In Zukunft unterstützte Streaming Anbieter</h2>
+        <ul>
+          <li><a href="https://www.netflix.com">Netflix</a></li>
+          <li><a href="https://www.amazon.de/amazonprime">Amazon Prime</a></li>
+          <li><a href="https://www.hulu.com">Hulu</a></li>
+          <li><a href="https://www.maxdome.com">Maxdome</a></li>
+          <li><a href="https://www.sky.com">Sky</a></li>
+          <li><a href="https://www.watchever.com">Watchever</a></li>
+        </ul>
+      </article>
+      <article>
+        <h2>Feedback und Vorschläge</h2>
+        <p>Ich freue mich auf Feedback und Anmerkungen.</p>
+        <a href="mailto:florianpuerschel@gmail.com?subject=Feedback"><i class="fas fa-arrow-right"></i> samir.wadi@outlook.de</a>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

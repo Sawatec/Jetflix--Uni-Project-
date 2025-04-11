@@ -1,0 +1,72 @@
+[
+  {
+    "_id": 1,
+    "name": "Black Mirror",
+    "year": 2011,
+    "type": "series",
+    "src": "images/series/blackmirror.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "Breaking Bad",
+    "year": 2008,
+    "type": "movie",
+    "src": "images/series/breakingbad.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "Criminal Minds",
+    "year": 2005,
+    "type": "series",
+    "src": "images/series/criminalminds.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Gilmore Girls",
+    "year": 2000,
+    "type": "series",
+    "src": "images/series/gilmoregirls.jpg"
+  },
+  {
+    "_id": 5,
+    "name": "Greys Anatomy",
+    "year": 2005,
+    "type": "series",
+    "src": "images/series/greysanatomy.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "How I Met Your Mother",
+    "year": 2005,
+    "type": "series",
+    "src": "images/series/himym.jpg"
+  },
+  {
+    "_id": 7,
+    "name": "House of Cards",
+    "year": 2013,
+    "type": "series",
+    "src": "images/series/houseofcards.jpg"
+  },
+  {
+    "_id": 8,
+    "name": "Strager Things",
+    "year": 2016,
+    "type": "series",
+    "src": "images/series/strangerthings.jpg"
+  },
+  {
+    "_id": 9,
+    "name": "Suits",
+    "year": 2011,
+    "type": "series",
+    "src": "images/series/suits.jpg"
+  },
+  {
+    "_id": 10,
+    "name": "The Big Bang Theory",
+    "year": 2007,
+    "type": "series",
+    "src": "images/series/tbbt.jpg"
+  }
+]

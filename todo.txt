@@ -1,0 +1,16 @@
+Web Engineering I Projekt
+
+  1. Landing Page // ERLEDIGT
+  2. Aufmacher(?) // ERLEDIGT
+    -> mindestens 2 HTML Dokumente.
+  3. Muss enthalten sein: // ERLEDIGT
+    -> Texte & Grafiken
+    -> Urheberrecht ist egal
+  4. mindestens ein Formular  // ERLEDIGT
+  5. Media Query für Smartphone // ERLEDIGT
+    -> ggf. Zwischenversion
+    -> weniger ist mehr
+  6. Transition & Animation // ERLEDIGT
+  7. Strukturelle Pseudoklassen // ERLEDIGT
+  8. Formen validieren  // ERLEDIGT
+  9. Transition & Animation über JS // ERLEDIGT

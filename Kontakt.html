@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>jetflix | Die besten Filme auf Netflix</title>
+  <!-- STYLESHEETS -->
+  <link type="text/css" rel="stylesheet" href="css/reset.css" />
+  <link type="text/css" rel="stylesheet" href="css/navigation.css" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link type="text/css" rel="stylesheet" href="css/subfooter.css" />
+  <link type="text/css" rel="stylesheet" href="css/footer.css" />
+  <link type="text/css" rel="stylesheet" href="css/loadingscreen.css" />
+  <link type="text/css" rel="stylesheet" href="css/register.css" />
+  <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- JavaScript -->
+  <script src="javascript/validate.js"></script>
+  <script src="javascript/hideNavbar.js"></script>
+</head>
+
+<body>
+  <!-- ZWECKELEMENT -->
+  <button><i class="fas fa-bars"></i></button>
+  <a href="Index.html"><img src="images/Logo.png" id="query-logo" alt="jetflix Logo"/></a>
+  <div id="fader"></div>
+  <!-- NAVIGATION -->
+  <nav>
+    <ul>
+      <li><a href="Index.html"><img src="images/Logo.png" draggable="false" alt="jetflix Logo"/></a></li>
+      <li><a href="#">Neu</a></li>
+      <li><a href="#">Filme</a>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">Rating</a></li>
+            <li><a href="#">Netflix Originals</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="#">Serien</a>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">Rating</a></li>
+            <li><a href="#">Netflix Originals</a></li>
+            <li><a href="#">Regisseur</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <form>
+      <fieldset>
+        <input type="search" placeholder="Title, Director etc." />
+        <input type="submit" value="search">
+      </fieldset>
+    </form>
+    <ul>
+      <li><a href="Kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+  <!-- MAIN CONTENT -->
+  <form>
+    <fieldset>
+      <legend>Vorname</legend>
+      <input type="text" placeholder="Vorname" value="" name="Vorname"/>
+    </fieldset>
+    <fieldset>
+      <legend>Nachname</legend>
+      <input type="text" placeholder="Nachname" value="" name="Nachname"/>
+    </fieldset>
+    <fieldset>
+      <legend>Mail</legend>
+      <input type="email" placeholder="mail@mustermann.de" value="" name="mail"/>
+    </fieldset>
+    <fieldset>
+      <legend>Anliegen</legend>
+      <select>
+        <option value="Bitte anliegen wählen">Bitte anliegen wählen</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Anmerkung">Anmerkung</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Nachricht</legend>
+      <textarea placeholder="Your Message here"></textarea>
+      <input type="submit" value="Send" id="send" name="absenden"/>
+    </fieldset>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/* LOADING SCREEN */
+#loading-screen {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(22,22,22,1);
+}
+
+#loading-screen div {
+  width: 3em;
+  height: 3em;
+  border: 0.2em solid rgba(255,255,255,0.3);
+  border-bottom: 0.2em solid rgba(239, 71, 58, 1);
+  border-radius: 50%;
+  animation: motion 2s infinite ease;
+}
+
+@keyframes motion {
+  0%{transform: rotate(0deg);}
+  90%{transform: rotate(360deg);}
+  100%{transform: rotate(360deg);}
+}
