@@ -53,6 +53,6 @@ Das Ziel von Jetflix war es, praktische Erfahrungen in der Webentwicklung zu sam
 Falls Sie Fragen zu diesem Projekt haben oder mehr über meine Arbeit erfahren möchten, können Sie mich gerne kontaktieren:
 
 - **E-Mail**: [samir.wadi@outlook.de](mailto:samir.wadi@outlook.de)
-- **LinkedIn**: [Ihr LinkedIn-Profil hier einfügen]
+- **LinkedIn**: https://www.linkedin.com/in/samir-wadi-16704a174/
 
 Vielen Dank für Ihr Interesse an meinem Projekt!
